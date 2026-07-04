@@ -11,7 +11,7 @@ const ServiceDetail = () => {
   const servicesData = {
     moving: {
       icon: <FaTruck />, title: language === 'ar' ? 'نقل الأثاث' : 'Furniture Moving',
-      image: '/images/about-us1.jpg',
+      image: `${process.env.PUBLIC_URL}/images/about-us1.jpg`,
       desc: language === 'ar'
         ? 'نقدم خدمة نقل الأثاث المنزلي والمكتبي بأعلى معايير الجودة والأمان. فريقنا المتخصص يضمن لك نقل آمن وسريع لجميع ممتلكاتك.'
         : 'We provide home and office furniture moving services with the highest quality and safety standards. Our specialized team guarantees you safe and fast moving of all your belongings.',
@@ -33,7 +33,7 @@ const ServiceDetail = () => {
     },
     packing: {
       icon: <FaBox />, title: language === 'ar' ? 'تغليف الأثاث' : 'Furniture Packing',
-      image: '/images/imgres.jpg',
+      image: `${process.env.PUBLIC_URL}/images/imgres.jpg`,
       desc: language === 'ar'
         ? 'خدمة تغليف احترافية بأحدث المواد لحماية ممتلكاتك من الخدوش والكسر أثناء النقل. نستخدم مواد عالية الجودة تناسب كل نوع من الأثاث.'
         : 'Professional packing service with latest materials to protect your belongings from scratches and breakage during moving. We use high quality materials suitable for every type of furniture.',
@@ -55,7 +55,7 @@ const ServiceDetail = () => {
     },
     install: {
       icon: <FaTools />, title: language === 'ar' ? 'فك وتركيب الأثاث' : 'Assembly & Disassembly',
-      image: '/images/fak.jpg',
+      image: `${process.env.PUBLIC_URL}/images/fak.jpg`,
       desc: language === 'ar'
         ? 'فريق متخصص في فك وتركيب جميع أنواع الأثاث بأيدي فنيين محترفين. نضمن لك تركيب صحيح وآمن لجميع قطع الأثاث.'
         : 'Specialized team in assembly and disassembly of all types of furniture by professional technicians. We guarantee correct and safe installation of all furniture pieces.',
@@ -141,7 +141,7 @@ const ServiceDetail = () => {
       {/* Header */}
       <section className="relative h-60 md:h-80 lg:h-96">
         <div className="absolute inset-0 bg-gradient-to-r from-primary/90 to-primary/70 z-10"></div>
-        <img src={`/images/service-detail-${serviceId}.jpg`} alt={service.title} onError={(e) => e.target.src = service.image} className="w-full h-full object-cover" />
+        <img src={`${process.env.PUBLIC_URL}/images/service-detail-${serviceId}.jpg`} alt={service.title} onError={(e) => e.target.src = service.image} className="w-full h-full object-cover" />
         <div className="absolute inset-0 z-20 flex items-center justify-center">
           <div className="text-center text-white px-4">
             <div className="w-16 h-16 md:w-20 md:h-20 bg-white/20 rounded-2xl flex items-center justify-center text-3xl md:text-4xl mx-auto mb-4 md:mb-6">

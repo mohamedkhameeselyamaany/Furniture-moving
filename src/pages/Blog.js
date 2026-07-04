@@ -36,7 +36,7 @@ const Blog = () => {
       excerpt: language === 'ar'
         ? 'اكتشف لماذا التغليف الجيد هو أهم خطوة في عملية النقل وكيف يحمي أثاثك من التلف.'
         : 'Discover why good packing is the most important step in the moving process and how it protects your furniture from damage.',
-      image: '/images/about-us1.jpg',
+      image: `${process.env.PUBLIC_URL}/images/about-us1.jpg`,
       date: '2024-01-05',
       author: language === 'ar' ? 'فريق اليماني' : 'Al Yamany Team',
       category: language === 'ar' ? 'نصائح' : 'Tips',
@@ -91,7 +91,7 @@ const Blog = () => {
       excerpt: language === 'ar'
         ? 'نقل الأثاث في فصل الشتاء يحتاج لاحتياطات خاصة. تعرف على كيفية حماية أثاثك من البرد والرطوبة.'
         : 'Moving furniture in winter requires special precautions. Learn how to protect your furniture from cold and humidity.',
-      image: '/images/sheta.webp',
+      image: `${process.env.PUBLIC_URL}/images/sheta.webp`,
       date: '2023-11-28',
       author: language === 'ar' ? 'فريق اليماني' : 'Al Yamany Team',
       category: language === 'ar' ? 'موسمي' : 'Seasonal',
@@ -132,7 +132,7 @@ const Blog = () => {
               {posts.map((post) => (
                 <article key={post.id} className="card overflow-hidden flex flex-col md:flex-row">
                   <div className="w-full md:w-1/3 h-40 md:h-auto">
-                    <img src={`/images/blog-${post.id}.jpg`} alt={post.title} onError={(e) => e.target.src = post.image} className="w-full h-full object-cover" />
+                    <img src={`${process.env.PUBLIC_URL}/images/blog-${post.id}.jpg`} alt={post.title} onError={(e) => e.target.src = post.image} className="w-full h-full object-cover" />
                   </div>
                   <div className="p-4 md:p-6 md:w-2/3 flex flex-col justify-between">
                     <div>

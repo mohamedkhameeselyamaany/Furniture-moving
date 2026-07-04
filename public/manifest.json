@@ -4,12 +4,12 @@
   "description": "شركة اليماني لنقل الأثاث تقدم خدمات نقل أثاث محترفة وآمنة في مصر",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "favicon1.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "logomk.png",
       "type": "image/png",
       "sizes": "192x192",
       "purpose": "any maskable"
@@ -36,14 +36,14 @@
       "short_name": "عرض سعر",
       "description": "احصل على عرض سعر سريع",
       "url": "/contact",
-      "icons": [{ "src": "logo192.png", "sizes": "192x192" }]
+      "icons": [{ "src": "logomk.png", "sizes": "192x192" }]
     },
     {
       "name": "خدماتنا",
       "short_name": "الخدمات",
       "description": "استكشف خدماتنا",
       "url": "/services",
-      "icons": [{ "src": "logo192.png", "sizes": "192x192" }]
+      "icons": [{ "src": "logomk.png", "sizes": "192x192" }]
     }
   ]
 }

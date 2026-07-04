@@ -72,121 +72,121 @@ const galleryImages = [
     id: 1,
     title: language === 'ar' ? 'نقل أثاث منزلي' : 'Home Moving',
     desc: language === 'ar' ? 'نقل آمن وسريع للأثاث المنزلي' : 'Safe and fast home moving',
-    image: '/images/gallery-1.jpg'
+    image: `${process.env.PUBLIC_URL}/images/gallery-1.jpg`
   },
   {
     id: 2, 
     title: language === 'ar' ? 'نقل أثاث منزلي' : 'Home Moving',
     desc: language === 'ar' ? 'نقل آمن وسريع للأثاث المنزلي' : 'Safe and fast home moving',
-    image: '/images/gallery-2.jpg'
+    image: `${process.env.PUBLIC_URL}/images/gallery-2.jpg`
   },
   {
     id: 3,
     title: language === 'ar' ? 'نقل أثاث منزلي' : 'Home Moving',
     desc: language === 'ar' ? 'نقل آمن وسريع للأثاث المنزلي' : 'Safe and fast home moving',
-    image: '/images/gallery-3.jpg'
+    image: `${process.env.PUBLIC_URL}/images/gallery-3.jpg`
   },
   {
     id: 4,
     title: language === 'ar' ? 'نقل أثاث منزلي' : 'Home Moving',
     desc: language === 'ar' ? 'نقل آمن وسريع للأثاث المنزلي' : 'Safe and fast home moving',
-    image: '/images/gallery-4.jpg'
+    image: `${process.env.PUBLIC_URL}/images/gallery-4.jpg`
   },
   {
     id: 5,
     title: language === 'ar' ? 'تغليف شامل' : 'Full Packing Service',
     desc: language === 'ar' ? 'خدمة تغليف كاملة قبل النقل' : 'Complete packing before moving',
-    image: '/images/gallery-5.jpg'
+    image: `${process.env.PUBLIC_URL}/images/gallery-5.jpg`
   },
   {
     id: 6,
     title: language === 'ar' ? 'تغليف شامل' : 'Full Packing Service',
     desc: language === 'ar' ? 'خدمة تغليف كاملة قبل النقل' : 'Complete packing before moving',
-    image: '/images/gallery-6.jpg'
+    image: `${process.env.PUBLIC_URL}/images/gallery-6.jpg`
   },
   {
     id: 7,
     title: language === 'ar' ? 'تغليف شامل' : 'Full Packing Service',
     desc: language === 'ar' ? 'خدمة تغليف كاملة قبل النقل' : 'Complete packing before moving',
-    image: '/images/gallery-7.jpg'
+    image: `${process.env.PUBLIC_URL}/images/gallery-7.jpg`
   },
   {
     id: 8,
     title: language === 'ar' ? 'تغليف شامل' : 'Full Packing Service',
     desc: language === 'ar' ? 'خدمة تغليف كاملة قبل النقل' : 'Complete packing before moving',
-    image: '/images/gallery-8.jpg'
+    image: `${process.env.PUBLIC_URL}/images/gallery-8.jpg`
   },
   {
     id: 9,
     title: language === 'ar' ? 'فك وتركيب العفش والمكيفات' : 'Furniture & AC Dismantling and Installation',
     desc: language === 'ar' ? 'فك وتركيب العفش والمكيفات بواسطة فنيين متخصصين' : 'Professional furniture and air conditioner dismantling and installation',
-    image: '/images/gallery-9.jpg'
+    image: `${process.env.PUBLIC_URL}/images/gallery-9.jpg`
   },
   {
     id: 10,
     title: language === 'ar' ? 'فك وتركيب العفش والمكيفات' : 'Furniture & AC Dismantling and Installation',
     desc: language === 'ar' ? 'فك وتركيب العفش والمكيفات بواسطة فنيين متخصصين' : 'Professional furniture and air conditioner dismantling and installation',
-    image: '/images/gallery-10.jpg'
+    image: `${process.env.PUBLIC_URL}/images/gallery-10.jpg`
   },
   {
     id: 11,
     title: language === 'ar' ? 'فك وتركيب العفش والمكيفات' : 'Furniture & AC Dismantling and Installation',
     desc: language === 'ar' ? 'فك وتركيب العفش والمكيفات بواسطة فنيين متخصصين' : 'Professional furniture and air conditioner dismantling and installation',
-    image: '/images/gallery-11.jpg'
+    image: `${process.env.PUBLIC_URL}/images/gallery-11.jpg`
   },
   {
     id: 12,
     title: language === 'ar' ? 'فك وتركيب العفش والمكيفات' : 'Furniture & AC Dismantling and Installation',
     desc: language === 'ar' ? 'فك وتركيب العفش والمكيفات بواسطة فنيين متخصصين' : 'Professional furniture and air conditioner dismantling and installation',
-    image: '/images/gallery-12.jpg'
+    image: `${process.env.PUBLIC_URL}/images/gallery-12.jpg`
   },
   {
     id: 13,
     title: language === 'ar' ? 'رفع الأثاث بالونش' : 'Furniture Lifting by Crane',
     desc: language === 'ar' ? 'رفع وإنزال الأثاث بأمان باستخدام ونش حديث' : 'Safe furniture lifting using a modern crane',
-    image: '/images/gallery-13.jpg'
+    image: `${process.env.PUBLIC_URL}/images/gallery-13.jpg`
   },
   {
     id: 14,
     title: language === 'ar' ? 'رفع الأثاث بالونش' : 'Furniture Lifting by Crane',
     desc: language === 'ar' ? 'رفع وإنزال الأثاث بأمان باستخدام ونش حديث' : 'Safe furniture lifting using a modern crane',
-    image: '/images/gallery-14.jpg'
+    image: `${process.env.PUBLIC_URL}/images/gallery-14.jpg`
   },
   {
     id: 15,
     title: language === 'ar' ? 'رفع الأثاث بالونش' : 'Furniture Lifting by Crane',
     desc: language === 'ar' ? 'رفع وإنزال الأثاث بأمان باستخدام ونش حديث' : 'Safe furniture lifting using a modern crane',
-    image: '/images/gallery-15.jpg'
+    image: `${process.env.PUBLIC_URL}/images/gallery-15.jpg`
   },
   {
     id: 16,
     title: language === 'ar' ? 'رفع الأثاث بالونش' : 'Furniture Lifting by Crane',
     desc: language === 'ar' ? 'رفع وإنزال الأثاث بأمان باستخدام ونش حديث' : 'Safe furniture lifting using a modern crane',
-    image: '/images/gallery-16.jpg'
+    image: `${process.env.PUBLIC_URL}/images/gallery-16.jpg`
   },
   {
     id: 17,
     title: language === 'ar' ? 'نقل الموبيليات وجميع أنواع الأثاث' : 'Furniture moving and all types of furniture',
     desc: language === 'ar' ? 'خدمات نقل احترافية لجميع أنواع الموبيليات والأثاث للمنازل والشركات' : 'Professional moving services for all types of furniture for homes and businesses',
-    image: '/images/gallery-17.jpg'
+    image: `${process.env.PUBLIC_URL}/images/gallery-17.jpg`
   },
   {
     id: 18,
     title: language === 'ar' ? 'نقل الموبيليات وجميع أنواع الأثاث' : 'Furniture moving and all types of furniture',
     desc: language === 'ar' ? 'خدمات نقل احترافية لجميع أنواع الموبيليات والأثاث للمنازل والشركات' : 'Professional moving services for all types of furniture for homes and businesses',
-    image: '/images/gallery-18.jpg'
+    image: `${process.env.PUBLIC_URL}/images/gallery-18.jpg`
   },
   {
     id: 19,
     title: language === 'ar' ? 'نقل الموبيليات وجميع أنواع الأثاث' : 'Furniture moving and all types of furniture',
     desc: language === 'ar' ? 'خدمات نقل احترافية لجميع أنواع الموبيليات والأثاث للمنازل والشركات' : 'Professional moving services for all types of furniture for homes and businesses',
-    image: '/images/gallery-19.jpg'
+    image: `${process.env.PUBLIC_URL}/images/gallery-19.jpg`
   },
   {
     id: 20,
     title: language === 'ar' ? 'نقل الموبيليات وجميع أنواع الأثاث' : 'Furniture moving and all types of furniture',
     desc: language === 'ar' ? 'خدمات نقل احترافية لجميع أنواع الموبيليات والأثاث للمنازل والشركات' : 'Professional moving services for all types of furniture for homes and businesses',
-    image: '/images/gallery-20.jpg'
+    image: `${process.env.PUBLIC_URL}/images/gallery-20.jpg`
   }
 ];
   // }));
@@ -259,7 +259,7 @@ const galleryImages = [
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-gradient-to-r from-primary/90 to-primary/70 z-10"></div>
           <img 
-            src="/images/homepage.jpg"
+            src={`${process.env.PUBLIC_URL}/images/homepage.jpg`}
             alt="Moving Service" 
             className="w-full h-full object-cover"
           />
@@ -297,7 +297,7 @@ const galleryImages = [
                     <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400" alt="Moving" className="w-full h-48 object-cover" />
                   </div>
                   <div className="rounded-2xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform">
-                <img src="/images/imgres.jpg" alt="Packing" className="w-full h-64 object-cover" />                  </div>
+                <img src={`${process.env.PUBLIC_URL}/images/imgres.jpg`} alt="Packing" className="w-full h-64 object-cover" />                  </div>
                 </div>
                 <div className="space-y-4">
                   <div className="rounded-2xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform">

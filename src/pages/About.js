@@ -30,7 +30,7 @@ const About = () => {
         <div className="container mx-auto">
           <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
             <div>
-              <img src="/images/gallery-2.jpg" alt="Company" onError={(e) => e.target.src = "https://images.unsplash.com/photo-1600607687644-c7171b42498b?w=800"} className="rounded-2xl shadow-xl w-full h-80 md:h-96 object-cover" />
+              <img src={`${process.env.PUBLIC_URL}/images/gallery-2.jpg`} alt="Company" onError={(e) => e.target.src = "https://images.unsplash.com/photo-1600607687644-c7171b42498b?w=800"} className="rounded-2xl shadow-xl w-full h-80 md:h-96 object-cover" />
             </div>
             <div>
               <span className="text-secondary font-bold text-xs md:text-sm uppercase tracking-wider">{language === 'ar' ? 'قصتنا' : 'Our Story'}</span>

@@ -131,7 +131,7 @@ const BlogPost = () => {
     },
     3: {
       title: language === 'ar' ? 'أهمية التغليف الجيد أثناء النقل' : 'The Importance of Good Packing During Moving',
-      image: '/images/about-us.jpg',
+      image: `${process.env.PUBLIC_URL}/images/about-us.jpg`,
       date: '2024-01-05',
       author: language === 'ar' ? 'فريق اليماني' : 'Al Yamany Team',
       content: language === 'ar' ? `
@@ -359,7 +359,7 @@ const BlogPost = () => {
     },
     9: {
       title: language === 'ar' ? 'نقل الأثاث في الشتاء: احتياطات خاصة' : 'Moving Furniture in Winter: Special Precautions',
-      image: '/images/sheta.webp',
+      image: `${process.env.PUBLIC_URL}/images/sheta.webp`,
       date: '2023-11-28',
       author: language === 'ar' ? 'فريق اليماني' : 'Al Yamany Team',
       content: language === 'ar' ? `

@@ -1,8 +1,8 @@
 {
+  "homepage": "https://mohamedkhameeselyamaany.github.io/Furniture-moving",
   "name": "yamany-movers",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://alyamany.com/",
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@testing-library/dom": "^10.4.1",

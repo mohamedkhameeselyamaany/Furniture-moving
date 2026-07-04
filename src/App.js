@@ -17,7 +17,7 @@ import Contact from './pages/Contact';
 function App() {
   return (
     <AppProvider>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <div className="min-h-screen bg-light dark:bg-dark transition-colors duration-300">
           <Navbar />
           <main>

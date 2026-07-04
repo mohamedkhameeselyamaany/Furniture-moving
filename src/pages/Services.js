@@ -17,7 +17,7 @@ const Services = () => {
         language === 'ar' ? 'تأمين شامل على المنقولات' : 'Comprehensive insurance on movables',
         language === 'ar' ? 'خدمة 24 ساعة' : '24-hour service',
       ],
-      image: '/images/about-us1.jpg',
+      image: `${process.env.PUBLIC_URL}/images/about-us1.jpg`,
     },
     {
       icon: <FaBox />, title: language === 'ar' ? 'تغليف الأثاث' : 'Furniture Packing', path: '/services/packing',
@@ -28,7 +28,7 @@ const Services = () => {
         language === 'ar' ? 'تغليف مخصص للأجهزة الإلكترونية' : 'Custom packing for electronic devices',
         language === 'ar' ? 'فك وتركيب التغليف' : 'Packing assembly and disassembly',
       ],
-      image: '/images/imgres.jpg',
+      image: `${process.env.PUBLIC_URL}/images/imgres.jpg`,
     },
     {
       icon: <FaTools />, title: language === 'ar' ? 'فك وتركيب' : 'Assembly & Disassembly', path: '/services/install',
@@ -39,7 +39,7 @@ const Services = () => {
         language === 'ar' ? 'تركيب في المكان الجديد' : 'Installation in the new place',
         language === 'ar' ? 'ضمان على التركيب' : 'Guarantee on installation',
       ],
-      image:  '/images/fak.jpg',
+      image:  `${process.env.PUBLIC_URL}/images/fak.jpg`,
     },
     {
       icon: <FaArrowUp />, title: language === 'ar' ? 'ونش رفع' : 'Crane Lifting', path: '/services/crane',
@@ -81,7 +81,7 @@ const Services = () => {
           {services.map((service, index) => (
             <div key={index} className={`card overflow-hidden grid md:grid-cols-2 gap-0 ${index % 2 === 1 ? 'md:flex-row-reverse' : ''}`}>
               <div className="h-48 md:h-64 lg:h-80 w-full">
-                <img src={`/images/service-${index + 1}.jpg`} alt={service.title} onError={(e) => e.target.src = service.image} className="w-full h-full object-cover" />
+                <img src={`${process.env.PUBLIC_URL}/images/service-${index + 1}.jpg`} alt={service.title} onError={(e) => e.target.src = service.image} className="w-full h-full object-cover" />
               </div>
               <div className="p-6 md:p-8 lg:p-10 flex flex-col justify-center">
                 <div className="w-14 h-14 md:w-16 md:h-16 bg-primary/10 rounded-2xl flex items-center justify-center text-primary text-2xl md:text-3xl mb-4 md:mb-6">
