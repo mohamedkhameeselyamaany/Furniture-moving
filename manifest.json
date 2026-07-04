@@ -1,0 +1,49 @@
+{
+  "short_name": "اليماني للنقل",
+  "name": "اليماني لنقل الأثاث - خدمات نقل أثاث محترفة",
+  "description": "شركة اليماني لنقل الأثاث تقدم خدمات نقل أثاث محترفة وآمنة في مصر",
+  "icons": [
+    {
+      "src": "favicon1.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logomk.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#1e3a5f",
+  "background_color": "#f8fafc",
+  "orientation": "portrait-primary",
+  "categories": ["business", "utilities", "lifestyle"],
+  "lang": "ar",
+  "dir": "rtl",
+  "scope": "/",
+  "shortcuts": [
+    {
+      "name": "طلب عرض سعر",
+      "short_name": "عرض سعر",
+      "description": "احصل على عرض سعر سريع",
+      "url": "/contact",
+      "icons": [{ "src": "logomk.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "خدماتنا",
+      "short_name": "الخدمات",
+      "description": "استكشف خدماتنا",
+      "url": "/services",
+      "icons": [{ "src": "logomk.png", "sizes": "192x192" }]
+    }
+  ]
+}
