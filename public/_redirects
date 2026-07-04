@@ -1,0 +1,10 @@
+# Netlify redirects for React Router
+# تأكد من أن جميع الروابط تعمل مع React Router
+
+/*    /index.html   200
+
+# إعادة توجيه HTTP إلى HTTPS
+http://alyamany.com/*  https://alyamany.com/:splat  301!
+
+# إعادة توجيه www إلى بدون www
+https://www.alyamany.com/*  https://alyamany.com/:splat  301!
