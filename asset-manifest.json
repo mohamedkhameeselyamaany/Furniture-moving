@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Furniture-moving/static/css/main.74754aef.css",
-    "main.js": "/Furniture-moving/static/js/main.fa04f4b5.js",
+    "main.js": "/Furniture-moving/static/js/main.efa1a811.js",
     "index.html": "/Furniture-moving/index.html",
     "main.74754aef.css.map": "/Furniture-moving/static/css/main.74754aef.css.map",
-    "main.fa04f4b5.js.map": "/Furniture-moving/static/js/main.fa04f4b5.js.map"
+    "main.efa1a811.js.map": "/Furniture-moving/static/js/main.efa1a811.js.map"
   },
   "entrypoints": [
     "static/css/main.74754aef.css",
-    "static/js/main.fa04f4b5.js"
+    "static/js/main.efa1a811.js"
   ]
 }
